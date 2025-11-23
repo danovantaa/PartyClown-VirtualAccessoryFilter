@@ -14,7 +14,6 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 
 ## 🔧 Tools
 
-- Python = untuk
 - Mediapipe = untuk mendeteksi landmark wajah (FaceMesh) dan landmark tangan (HandLandmark).
 - OpenCV = untuk membaca frame video, melakukan konversi warna (BGR → RGB)
 - Pygame = untuk memainkan backsound
