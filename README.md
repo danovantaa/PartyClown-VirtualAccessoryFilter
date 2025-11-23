@@ -19,6 +19,22 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 - Pygame = untuk memainkan backsound
 - Pillow = untuk konversi image hasil OpenCV menjadi format yang dapat ditampilkan di Tkinter
 
+## 📂 Struktur Folder
+```bash
+├── requirements.txt
+├── main.py
+├── gui.py
+├── camera.py
+├── landmark.py
+├── backsound.py
+├── requirements.txt
+└── README.md
+└── Backsound/
+    └── game-8-bit.mp3
+└── Images/
+    └── ...
+```
+
 ## 🚀 Instalasi
 
 ### **Prasyarat**
