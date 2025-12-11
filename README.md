@@ -6,11 +6,9 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 
 ## 👥Team Members
 
-| Name                      | NIM       | Github Profile                                           |
-| ------------------------- | --------- | -------------------------------------------------------- |
-| Zefanya Danovanta Tarigan | 122140101 | [@danovantaa](https://github.com/danovantaa)             |
-| Gabriella Natalya Rumapea | 122140056 | [@gabriellarumapea](https://github.com/gabriellarumapea) |
-| Joy Daniella V.S          | 122140039 | [@jdaniella039](https://github.com/jdaniella039)         |
+| Name                      | NIM       | Github Profile                               |
+| ------------------------- | --------- | -------------------------------------------- |
+| Zefanya Danovanta Tarigan | 122140101 | [@danovantaa](https://github.com/danovantaa) |
 
 ## 🔧 Tools
 
@@ -20,6 +18,7 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 - Pillow = untuk konversi image hasil OpenCV menjadi format yang dapat ditampilkan di Tkinter
 
 ## 📂 Struktur Folder
+
 ```bash
 ├── requirements.txt
 ├── main.py
@@ -27,6 +26,15 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 ├── camera.py
 ├── landmark.py
 ├── backsound.py
+└── accessories/
+    ├── glasses.py
+    ├── hat.py
+    ├── mustache.py
+    ├── overlay.py
+    └── transform.py
+├── utils/
+    ├── handutils.py
+    └── resizeimg.py
 ├── requirements.txt
 └── README.md
 └── Backsound/
@@ -39,7 +47,7 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 
 ### **Prasyarat**
 
-- Python **3.8 atau lebih tinggi**
+- Python **3.10 atau lebih tinggi**
 - Webcam (untuk face & hand tracking)
 - Sistem Operasi:
   - Windows
@@ -89,12 +97,17 @@ python main.py
 
 ### **4. Arahkan tangan anda ke bagian asset yang berada di atas kanan dan sesuaikan tangan ke gambar aksesoris yang ingin dipakai**
 
-### **5. Klik tombol stop jika ingin mengakhiri program**
+### **5. Arahkan lagi tangan anda jika ingin melepas virtual aksesoris tersebut**
+
+### **6. Klik tombol stop jika ingin mengakhiri program**
 
 ## 📑Weekly Logbook
 
-| Date             | Activity                 | Result                                                                 |
-| ---------------- | ------------------------ | ---------------------------------------------------------------------- |
-| 29 October 2025  | Create Repository Github | Repository PartyClown-VirtualAccessoryFilter                           |
-| 1 November 2025  | Upload Asset             | Folder Backsound & Images                                              |
-| 23 November 2025 | Create GUI & Landmarks   | Membuat landmarks pada bagian wajah dan tangan dan GUI agar interaktif |
+| Date             | Activity                 | Result                                                                       |
+| ---------------- | ------------------------ | ---------------------------------------------------------------------------- |
+| 29 October 2025  | Create Repository Github | Repository PartyClown-VirtualAccessoryFilter                                 |
+| 1 November 2025  | Upload Asset             | Folder Backsound & Images                                                    |
+| 23 November 2025 | Create GUI & Landmarks   | Membuat landmarks pada bagian wajah dan tangan dan GUI agar interaktif       |
+| 30 November 2025 | Render asset             | menampilkan asset kedalam GUI dan memposisikan di bagian yang sesuai         |
+| 10 Desember 2025 | rotate asset             | Membuat fungsi rotate agar aksesoris tersebut bisa menyesuaikan posisi wajah |
+| 11 Desember 2025 | Pembuatan Laporan        | Pembuatan Laporan dengan Latex                                               |

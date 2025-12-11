@@ -1,7 +1,8 @@
 import tkinter as tk
-from tkinter import Canvas
 from gui import CameraGUI
 from backsound import play_backsound
+
+#MAIN PROGRAM
 
 class MainApp:
     def __init__(self, root):
@@ -52,8 +53,8 @@ class MainApp:
         CameraGUI(cam_window)
         cam_window.mainloop()
 
-
 if __name__ == "__main__":
     root = tk.Tk()
     app = MainApp(root)
     root.mainloop()
+    
