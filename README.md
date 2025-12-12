@@ -20,7 +20,6 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 ## 📂 Struktur Folder
 
 ```bash
-├── requirements.txt
 ├── main.py
 ├── gui.py
 ├── camera.py
@@ -42,6 +41,8 @@ Party Clown is a facial recognition system that adds virtual accessories to user
 └── Images/
     └── ...
 ```
+
+## Video Demo : [Demo Project](https://drive.google.com/file/d/1KqXxvEc65K73S1MkI5T6UNFdZgmxtdHN/view?usp=sharing)
 
 ## 🚀 Instalasi
 
@@ -111,3 +112,4 @@ python main.py
 | 30 November 2025 | Render asset             | menampilkan asset kedalam GUI dan memposisikan di bagian yang sesuai         |
 | 10 Desember 2025 | rotate asset             | Membuat fungsi rotate agar aksesoris tersebut bisa menyesuaikan posisi wajah |
 | 11 Desember 2025 | Pembuatan Laporan        | Pembuatan Laporan dengan Latex                                               |
+| 12 Desember 2025 | Pembuatan Vidio          | Pembuatan Vidio Demo Project yang telah dibuat                               |
